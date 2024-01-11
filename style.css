@@ -1,0 +1,67 @@
+*{margin: 0; padding: 0;}
+
+#container{
+    width: 70%;
+    height: 25vh;
+    margin-left: 15%;
+    display: block;
+}
+
+#saleContent{
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta{
+    width: 32%;
+    height: 100%;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #D8E3F2;
+}
+
+.oferta span{
+    padding: 0.75vh 1.5vh;
+    background-color: lightgreen;
+    color: green;
+    border-radius: 3px;
+    font-size: xx-small;
+}
+
+.oferta h1{
+    font-size: larger;
+    font-family: sans-serif;
+    margin-top: 2vh;
+}
+
+.oferta button{
+    width: 16vh;
+    height: 4vh;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color: #c92071;
+}
+
+.imgContent{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.imgContent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
